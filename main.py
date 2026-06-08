@@ -1,8 +1,8 @@
 import streamlit as st
-from streamlit_option_new import option new
+from streamlit_option_new import option menu
 st.title("my live application")
 with st.sidebar:
   data = option_menu(
   menu_title = "My Appa",
-  option=["Home", "About","Services"],
+  options=["Home", "About","Services"],
   )
