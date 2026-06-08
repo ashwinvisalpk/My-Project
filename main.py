@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_option_new import option_menu
+from streamlit_option_menu import option_menu
 st.title("my live application")
 with st.sidebar:
   data = option_menu(
